@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lobster&display=swap');
+
+
+:root {
+  font-size: 1vmax;
+}
+
+#main {
+  background-color: #c3e8f7;
+  padding-top: 11rem;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 0rem;
+  width: 100%;
+  height: 10rem;
+  
+  background-color: #0099ff;
+  box-shadow: 0 0.5rem 0.4rem 0 #8ecffa;
+}
+#left-box {
+  display: flex;
+  align-items: center;
+  
+  padding: 1rem;
+}
+#header-img {
+  width: 8rem;
+}
+h1 {
+  display: inline-block;
+  margin-left: 1rem;
+  
+  font-family: 'Dancing Script', Cursive, Arial;
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  
+  margin: 0 1rem;
+  font-family: 'Bebas Neue', cursive, Arial;
+  font-size: 2rem;
+}
+#nav-bar a {
+  margin: 0 1rem;
+  
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+#welcome-page {
+  width: 35em;
+  margin: 3rem auto;
+  
+  font-family: Comfortaa, Arial;
+  border-radius: 1rem;
+  padding: 1em;
+  background-color: white;
+  color: #000569;
+}
+#welcome-page h2 {
+  text-align: center;
+  font-size: 4rem;
+}
+#welcome-page p {
+  text-align: center;
+  margin: 1em auto;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+#features {
+  font-family: Lobster, Arial;
+  background-color: white;
+  padding: 1em;
+}
+.feature {
+  text-align: center;
+  margin: 1rem 0;
+}
+.feature img {
+  vertical-align: middle;
+  width: 7em;
+  margin-right: 2rem;
+}
+.feature p{
+  display: inline-block;
+  vertical-align: middle;
+  
+  font-size: 2rem;
+  width: 24em;
+  text-align: left;
+}
+#feature1 {
+  color: #066100;
+}
+#feature2 {
+  color: #5c0101;
+}
+#feature3 {
+  color: #3b0501;
+}
+
+#form {
+  text-align: center;
+  padding: 3rem;
+  background-color: #fffb21;
+  margin: 3rem 0;
+  
+  font-family: 'Comfortaa', Arial;
+  font-size: 2rem;
+  color: #05006b;
+}
+#form label {
+  display: block;
+  color: #302500;
+}
+#form input {
+  display: block;
+  margin: 1.5rem auto 0;
+  padding: 0.6rem 1rem;
+  width: 25rem;
+  border-radius: 5em;
+  font-family: inherit;
+  font-size: 1.5rem;
+}
+#form input[type='submit'] {
+  background-color: #41c206;
+  color: white;
+  
+  padding: 0.5rem 1rem;
+  width: 10rem;
+  
+  border: none;
+  cursor: pointer;
+}
+#form input[type='email']:focus {
+  outline: none;
+}
+
+#products-section {
+  text-align: center;
+  margin: 5rem 0;
+}
+
+#products-section h2 {
+  font-family: Comfortaa;
+  font-size: 2.5rem;
+  color: #1f0073;
+}
+
+#products-list {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 3rem;
+}
+.product {
+  background-color: white;
+  border-radius: 1em;
+  width: 25%;
+  margin: 0 1em;
+  padding: 0.5rem;
+  color: #1d0461;
+}
+.product img {
+  width: 100%;
+  border-radius: 1em;
+}
+.product h3 {
+  text-align: center;
+  font-family: Comfortaa, Arial;
+  font-size: 1.5rem;
+  margin: 1rem 0 0.5rem;
+}
+.product p {
+  text-align: justify;
+  font-family: Comfortaa, Arial;
+  font-size: 1rem;
+  line-height: 1.3;
+  width: 85%;
+  margin: 0 auto 0.8rem;
+}
+
+#video-box {
+  text-align: center;
+  font-family: Comfortaa, Arial;
+  width: 100%;
+  margin: 5rem auto;
+  
+  color: #053480;
+}
+#video-box p {
+  font-size: 1.8rem;
+}
+#video-box small {
+  display: block;
+  font-size: 0.9rem;
+  vertical-align: middle;
+  margin: 1rem 0 2rem;
+}
+#video-box iframe {
+  width: 50%;
+  height: 30rem;
+}
+
+footer {
+  background-color: gray;
+  color: white;
+  padding: 1rem;
+  font-family: comfortaa;
+}
+footer h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+footer p {
+  text-align: left;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1rem;
+  margin: 1rem auto 1rem;
+}
+footer p img {
+  width: 2rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+footer p a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 600px)
+{
+  #main {
+    padding-top: 18rem;
+  }
+  header {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 17rem;
+  }
+  #nav-bar {
+    flex-direction: column;
+  }
+  #features {
+    padding-top: 0.1rem;
+  }
+  .feature {
+    margin-top: 2rem;
+  }
+  #products-list {
+    flex-direction: column;
+    padding: 0;
+  }
+  .product {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  #video-box iframe {
+    width: 95%;
+    height: 40rem;
+  }
+}
+
+
+
